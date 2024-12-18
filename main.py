@@ -8,3 +8,6 @@ sorted_students = sorted(students, key=lambda x: (x['Firstname'], x['Lastname'],
 
                                                   for student in sorted_students:
                                                                    print(student)
+
+students.append({"Firstname":"Nilli","Lastname": "Rezaei","SID" :1398013389743}
+students.append({"Firstname":"Reza","Lastname": "Karimi","SID" :1400828486329}
